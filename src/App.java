@@ -6,9 +6,9 @@ public class App {
         System.out.println("Ingrese número");
         String numeroPar = sc. nextLine();
 
-        int numero = Integer.parseInt (NumeroPar);
+        int numero = Integer.parseInt (numeroPar);
 
-        if (Numero %2 == 0 ){
+        if (numero %2 == 0 ){
             System.out.println("El número es par");
         }
 
